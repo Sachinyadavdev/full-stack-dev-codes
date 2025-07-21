@@ -1,0 +1,7 @@
+
+# Tools and websites Used For Web Dev 
+
+1. colorhunt.co - for choosing the Color
+2. Pesticide for chrome - is used for watching the containers 
+                          like the div and other containers and also ID and Classes of the Node.
+3.
