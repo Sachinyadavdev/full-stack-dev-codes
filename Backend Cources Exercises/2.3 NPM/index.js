@@ -1,13 +1,20 @@
 // var nameGenerator = require('sillyname');
 
-import nameGenerator from "sillyname";
+// import nameGenerator from "sillyname";
 
-var myName = nameGenerator();
+// var myName = nameGenerator();
 
-console.log(`My name is ${myName}`);
+// console.log(`My name is ${myName}`);
 
-import qrcode from "qrcode-generator";
+// QR Code Generator 
 
-var myqrcode = qrcode();
+// import qrcode from "qrcode-generator";
 
-console.log(myqrcode);
+// var myqrcode = qrcode();
+
+// console.log(myqrcode);
+
+import {randomSuperhero} from "superheroes";
+
+const heroName = randomSuperhero(); 
+console.log(`I am ${heroName}!`);
