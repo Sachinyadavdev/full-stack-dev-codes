@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selecting HTML Elements by Js</title>
+</head>
+<body>
+    <h2 id="idName">This is the HTML Element in H2 tag</h2>
+    <script>
+    document.getElementById("idName").innerHTML = "This is the chnages title";
+
+    document.getElementsByClassName("className").innerHTML = "The class name is here";
+    
+    document.querySelector("#idName").innerHTML = "This is changed by the Query Selector";
+    </script>
+</body>
+</html>

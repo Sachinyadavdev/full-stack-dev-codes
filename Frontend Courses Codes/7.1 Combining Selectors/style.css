@@ -1,0 +1,22 @@
+/* Write your code here: */
+
+h1, h2{      /* Group Selector*/
+    color: blueviolet;
+}
+
+.box > p{     /* Parent and Child Selector*/
+  color: firebrick;
+}
+
+.list li{     /* Ancestor and Decendent Selctor*/
+    color: blue;
+}
+
+li.done{     /* Chain Selectors */
+    color: seagreen;
+}
+
+ul p.done{     /* Combining Combiners */
+
+    font-size: 0.5rem;
+}

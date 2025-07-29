@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is the Class List Buttons</title>
+    <style>
+        .invisible{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    
+    <h2>This is the Page </h2>
+
+    <ul>
+        <li>Google </li>
+        <li><a href="https://www.youtube.com">Youtube</a></li>
+        <li>Yahoo!</li>
+    </ul>
+     
+    <h3 id="output"></h3>
+    <button>Click Me</button>
+    <script>
+         var value;
+        
+
+        value = document.querySelector("button").classList.add("invisible");
+
+        document.getElementById("output").innerHTML = value;
+    </script>
+</body>
+</html>
