@@ -8,6 +8,16 @@ const app = express();
 const port = 3000;
 
 app.use(bodyParser.urlencoded({ extended: true }));
+var bandName = "";
+
+function bandNameGenerator(req, res, next) {
+  console.log(req.body);
+  bandName = req.body["street"] + req.body["pet"];
+  next();
+}
+
+app.use(bandNameGenerator);
+
 
 app.get("/", (req, res) => {
   // console.log(__dirname + "/public/index.html");
@@ -17,8 +27,9 @@ app.get("/", (req, res) => {
 app.post("/submit", (req, res) => {
   console.log(req.body);
   
+  res.send(`<h1>Your band name is:</h1><h2>${bandName}✌️</h2>`);
   res.send("Form submitted successfully!");
-
+  
   
 });
 
