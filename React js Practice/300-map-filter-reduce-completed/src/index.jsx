@@ -74,3 +74,4 @@ console.log(newEmojipedia);
 // to install the node modules and
 // npm run dev
 // to launch your react project in your browser
+// This is the comment 
